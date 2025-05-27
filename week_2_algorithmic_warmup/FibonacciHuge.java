@@ -6,9 +6,9 @@ public class FibonacciHuge {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // System.out.println("Options ----\n1: Manual Test\n2: StressTest\n-----------\n");
-        int option = 2;
-        // int option = sc.nextInt();
+        System.out.println("Options ----\n1: Manual Test\n2: StressTest\n-----------\n");
+        // int option = 2;
+        int option = sc.nextInt();
 
         if (option == 1) {
             long n = sc.nextLong();
@@ -69,7 +69,7 @@ public class FibonacciHuge {
         listMod.add(0);
         listMod.add(1);
 
-        // We loop until n + 1 to make sure we find de (0 - 1) pattern
+        // We loop until n + 1 to make sure we find the (0 - 1) pattern
         // There might be some cases (e.g. n=9, m=3) in which
         // the period length (for m=3 it's 8) is n - 1.
         // We need to advance one more in order to find the '1' in the pattern.
