@@ -24,6 +24,7 @@ The solutions are organized into folders corresponding to the weeks and topics c
 * **`GCD.java`**: Computes the Greatest Common Divisor (GCD) of two integers using the Euclidean algorithm.
 * **`LCM.java`**: Computes the Least Common Multiple (LCM) of two integers, utilizing the GCD.
 * **`FibonacciHuge.java`**: Calculates the Nth Fibonacci number modulo M, leveraging the Pisano period. Includes a naive method and a stress testing utility to compare the fast and naive approaches.
+* **`FibonacciSumLastDigit.java`**: Calculates the last digit of the sum of the first N Fibonacci numbers.
 
 ## How to Compile and Run
 
