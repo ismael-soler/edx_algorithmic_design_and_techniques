@@ -21,8 +21,8 @@ public class FibonacciSumLastDigit {
     private static int getFibonacciNumber(int index) {
         if (index <= 1) {
             return index;
-
         }
+        
         int[] list = new int[index + 1];
         list[0] = 0;
         list[1] = 1;
